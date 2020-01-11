@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/examples/SES_IoT/week4/uart
+Ealarm_fsm
+Z0 w1578657807
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/E2/askisi3
+Z4 8C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/E2/askisi3/alarm_fsm.vhd
+Z5 FC:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/E2/askisi3/alarm_fsm.vhd
+l0
+L7
+VQ803W0J8eMN_65f9om_^40
+!s100 `_Fcn1T8bog7>mTAo^ob>0
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1578657866
+!i10b 1
+Z8 !s108 1578657866.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/E2/askisi3/alarm_fsm.vhd|
+Z10 !s107 C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/E2/askisi3/alarm_fsm.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Afsm
+R1
+R2
+DEx4 work 9 alarm_fsm 0 22 Q803W0J8eMN_65f9om_^40
+l26
+L20
+VOHlXHYX25:c5E;H?^Lb@j3
+!s100 jh<E<_=:B??@X7DV00Ui43
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealarm_fsm_tb
+Z13 w1578657487
+R1
+R2
+R3
+Z14 8C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/E2/askisi3/alarm_fsm_tb.vhd
+Z15 FC:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/E2/askisi3/alarm_fsm_tb.vhd
+l0
+L6
+V2IFF49@J;=eO=c51]i63n2
+!s100 >Qll2kMa[KeD6jcfJ;IAj2
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/E2/askisi3/alarm_fsm_tb.vhd|
+Z17 !s107 C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/E2/askisi3/alarm_fsm_tb.vhd|
+!i113 1
+R11
+R12
+Aalarm_fsm_tb_arch
+R1
+R2
+Z18 DEx4 work 12 alarm_fsm_tb 0 22 2IFF49@J;=eO=c51]i63n2
+l28
+L9
+Z19 VB<=cf>z5`AJQaam1iU24n0
+Z20 !s100 Ak`Jbh<9_Nh:YVB>dBIRM3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

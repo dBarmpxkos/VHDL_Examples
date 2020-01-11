@@ -1,0 +1,56 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity alarm_fsm is
+port ( 
+	i_remote	: in std_logic;
+	i_sensors	: in std_logic;
+	i_reset		: in std_logic;
+	i_clock		: in std_logic;
+	-- -------------------------
+	o_siren		: out std_logic;
+	debug_states : out std_logic_vector(1 downto 0)
+);
+end alarm_fsm;
+-- -----------------------------
+
+architecture fsm of alarm_fsm is
+
+	type state is (ST_DISARMED, ST_ARMED, ST_INTRUSION);
+	signal pr_state, nx_state : state;
+	
+begin
+
+	process(i_reset, i_clock) begin
+		if (i_reset = '1') then 
+			pr_state <= ST_DISARMED;
+		elsif (i_clock'event AND i_clock = '1') then
+			pr_state <= nx_state;
+		end if;
+	end process;
+	
+	process(pr_state, i_remote, i_sensors) begin
+		case pr_state is
+			when ST_DISARMED =>
+				o_siren <= '0';
+				if (i_remote = '1') nx_state <= ST_ARMED;
+				end if;
+			when ST_ARMED =>
+				o_siren <= '0';
+				if (i_remote = '1') nx_state <= ST_DISARMED;
+				elsif (i_sensors = '1') nx_state <= ST_INTRUSION;
+				end if;
+			when ST_INTRUSION =>
+				o_siren <= '1';
+				if (i_remote = '1') nx_state <= ST_DISARMED;
+				end if;
+		end case;
+	end process;
+
+	with pr_state select
+		debug_states <= "00" when ST_DISARMED,
+						"01" when ST_ARMED,
+						"10" when ST_INTRUSION,
+						"11" when others;
+end architecture;
+				

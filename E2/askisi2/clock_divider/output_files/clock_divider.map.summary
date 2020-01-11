@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 23 08:49:42 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : clock_divider
+Top-level Entity Name : clock_divider
+Family : Cyclone IV E
+Total logic elements : 57
+    Total combinational functions : 57
+    Dedicated logic registers : 33
+Total registers : 33
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,44 @@
+C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/D_FlipFlop_struct.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/D_FlipFlop_struct.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_FlipFlop_struc
+-- Compiling architecture D_FlipFlop_struc_arch of D_FlipFlop_struc
+
+} {} {}} C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/counter4_struct.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/counter4_struct.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity counter4_struct
+-- Compiling architecture dff_struct of counter4_struct
+
+} {} {}} C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/counter4.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/counter4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package my_package
+-- Compiling entity counter4
+-- Compiling architecture struct of counter4
+
+} {} {}} C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/counter4_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/counter4_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package my_package
+-- Compiling entity counter4_tb
+-- Compiling architecture counter4_tb_arch of counter4_tb
+
+} {} {}} C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/my_package.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/euphoria/Desktop/SPS_SES_IoT/FPGA/paradoteo2/my_package.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package my_package
+-- Compiling package body my_package
+-- Loading package my_package
+
+} {} {}}
