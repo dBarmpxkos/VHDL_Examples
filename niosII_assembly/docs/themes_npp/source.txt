@@ -1,0 +1,9 @@
+http://tasdeeq.blogspot.com/2015/04/niosii-assembly-language-syntax.html
+
+Open Notepad++ , click stuff: 
+
+For dark background themes : 
+Language > Define your language > Create New > Import > NIOSii_Dark.xml
+
+For light background themes (for lame pplz :P ):
+Language > Define your language > Create New > Import > NIOSii_Light.xml
