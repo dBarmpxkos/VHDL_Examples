@@ -92,10 +92,10 @@ int main(){
 	__asm( "movia r9, 0x11040");
 
 __asm( "init:");
-	__asm( "movia r6, 0x00");     /* counter */
+	__asm( "movia r6, 0x00");     	/* counter */
 	__asm( "mov r7, r6");
-	__asm( "movia r10, 0x2DC6C0");/* wait constant */
-	__asm( "movi r5, 0xFF");	  /* 255 constant */
+	__asm( "movia r10, 0x2DC6C0");	/* wait constant */
+	__asm( "movi r5, 0xFF");	  	/* 255 constant */
 
 __asm( "loop:");
 		/* delay */
